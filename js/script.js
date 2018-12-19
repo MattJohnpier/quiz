@@ -27,4 +27,35 @@ $(document).ready(function() {
             return 0;
         }
     }
+    
+    function dangerscore(answer) {
+        if (answer === " "){
+            return 1;
+        }else if (answer === " "){
+            return 2;
+        }else if (answer === " "){
+            return 3;
+        }else if (answer === " "){
+            return 4;
+        }else if (answer === " "){
+            return 5;
+        }else{
+            return 0;
+        }
+        
+    }function teamworkscore(answer) {
+        if (answer === " "){
+            return 1;
+        }else if (answer === " "){
+            return 2;
+        }else if (answer === " "){
+            return 3;
+        }else if (answer === " "){
+            return 4;
+        }else if (answer === " "){
+            return 5;
+        }else{
+            return 0;
+        }
+    }
 });
